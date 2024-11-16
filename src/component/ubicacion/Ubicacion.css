@@ -1,0 +1,11 @@
+.ubicacion_contenedor{
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.ubicacion_mapa{
+  width: 90%;
+  border-radius: 1px solid blue;
+  overflow: hidden;
+  border-radius: 15px;
+}

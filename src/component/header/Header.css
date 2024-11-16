@@ -1,0 +1,8 @@
+.header_contenedor_img_log{
+  width: 60px;
+}
+@media (max-width:480px){
+  .header_contenedor_img_log{
+    width: 50px;
+  }
+}

@@ -1,0 +1,26 @@
+.servicio_card{
+  width: 350px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.servicio_card img{
+  width: 100%;
+  height: 100%;
+}
+.servicio_card_info{
+  position: absolute;
+  top: -50%;
+  left: 0;
+  transition: 2.2s ease-in-out;
+  background-color: rgba(240, 255, 240, 0.651);
+  p{
+    font-weight: bold;
+  }
+}
+
+.servicio_card:hover{
+  cursor:pointer;
+  .servicio_card_info{
+  top: 50%;}
+}

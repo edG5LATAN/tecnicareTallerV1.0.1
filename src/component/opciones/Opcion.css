@@ -1,0 +1,8 @@
+.opcion_contenedor{
+  transition: 0.5s ease-in-out;
+}
+.opcion_contenedor:hover{
+  
+  cursor: pointer;
+}
+

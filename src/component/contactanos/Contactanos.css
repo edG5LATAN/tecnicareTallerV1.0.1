@@ -1,0 +1,53 @@
+.contactanos_contenedor{
+  padding: 20px 0px 20px 0px;
+}
+.contactanos_card{
+  width: 100%;
+}
+.contactanos1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h4{
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+  }
+}
+.contactanos3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+  gap: 2rem;
+}
+.contactanos3 i:hover{
+  cursor: pointer;
+  scale: 1.02;
+}
+.contactanos_icon1{
+  color: blue;
+}
+.contactanos_icon2{
+  color: orangered;
+}
+.contactanos_icon3{
+  color: green;
+}
+@media (max-width:480px) {
+  .contactanos_contenedor{
+    flex-direction: column;
+  }
+  .contactanos2{
+    padding: 15px;
+  }
+  .contactanos3{
+    flex-direction: row;
+  }
+}

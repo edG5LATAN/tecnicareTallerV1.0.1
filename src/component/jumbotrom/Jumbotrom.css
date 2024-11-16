@@ -1,0 +1,36 @@
+.jumbotrom_contenedor{
+  height: 400px;
+  margin: 10px 0 15px 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.jumbotrom_contenedor img{
+  width: 100%;
+  height: 100%;
+  transition: 2s ease-in-out;
+}
+.jumbotrom_contenedor img:hover{
+  transform: scale(1.1);
+}
+.jumbotrom_contenedor h3{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: rgba(240, 248, 255, 0.555);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 35px;
+  font-style: oblique;
+}
+
+@media (max-width:480px) {
+  .jumbotrom_contenedor{
+    height: 220px;
+    h3{
+      left: 28%;
+      font-size: 23px;
+    }
+  }
+}
