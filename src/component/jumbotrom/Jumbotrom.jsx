@@ -5,7 +5,7 @@ import './Jumbotrom.css'
 function Jumbotrom() {
   return (
 <div className='jumbotrom_contenedor'>
-      <img src="https://cybertown.mx/wp-content/uploads/2024/03/cell-android-repair-1024x600-1.webp" alt="imagen de portada" />
+      <img src="https://tecnosentry.com/wp-content/uploads/2024/08/cell-android-repair-1024x600-1.webp" />
       <h3 className='text-center'>TECNICARE</h3>
     </div>
   
